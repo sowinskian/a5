@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  min-height: 100vh;
+  margin:0px;
+  padding: 0px;
 }
 
 .App-logo {
@@ -14,14 +20,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #222222;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#header{
+  margin:0px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(54, 54, 54);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(54, 54, 54);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(54, 54, 54);
 }
