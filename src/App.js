@@ -38,6 +38,8 @@ export default function App() {
   const [messages, setMessages] = React.useState({
     "sent": []
   });
+  console.log('Hello There')
+  console.log(process.env.REACT_APP_TRANS_API_KEY)
 
   function translate(lang, sender, text) {
     let options = {
