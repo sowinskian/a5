@@ -38,8 +38,6 @@ export default function App() {
   const [messages, setMessages] = React.useState({
     "sent": []
   });
-  console.log('Hello There')
-  console.log(process.env.REACT_APP_TRANS_API_KEY)
 
   function translate(lang, sender, text) {
     let options = {
@@ -94,7 +92,7 @@ export default function App() {
       <div className="App">
 
         <form className={classes.root} noValidate autoComplete="off">
-          <h1 style={{ color: '#beb9b0' }}>Translator - Traductor</h1>
+          <h1 style={{ color: '#beb9b0' }}>GatorCom App</h1>
           <div>
             <Button style={{ backgroundColor: '#b17316', color: 'white', width: "22%"}} onClick={() => window.open("https://campusmap.ufl.edu/#/", "_blank")} variant="contained">Campus Map / Mapa del Campus</Button>
             <Button style={{ backgroundColor: '#b17316', color: 'white', width: "22%" }} onClick={() => window.open("https://ufl.qualtrics.com/jfe/form/SV_07cOrzYQpSmS0bI", "_self")} variant="contained">End Interaction / Interacción Final</Button>
