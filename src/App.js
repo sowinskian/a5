@@ -105,7 +105,7 @@ export default function App() {
           <h1 style={{ color: '#beb9b0' }}>GatorCom App</h1>
           <div>
             <Button style={{ backgroundColor: '#b17316', color: 'white', width: "22%", marginLeft: '2%', marginRight: '2  %'}} onClick={() => window.open("https://campusmap.ufl.edu/#/", "_blank")} variant="contained">Campus Map / Mapa del Campus</Button>
-            <Button style={{ backgroundColor: '#b17316', color: 'white', width: "22%", marginLeft: '2%', marginRight: '2%' }} onClick={() => window.open("https://ufl.qualtrics.com/jfe/form/SV_07cOrzYQpSmS0bI", "_self")} variant="contained">End Interaction / Interacción Final</Button>
+            <Button style={{ backgroundColor: '#b17316', color: 'white', width: "22%", marginLeft: '2%', marginRight: '2%' }} onClick={() => window.open("https://forms.gle/cTcjccMzKN9SYTey6", "_self")} variant="contained">End Interaction / Interacción Final</Button>
           </div>
           <div style={{ justifyContent: 'center', alignItems: 'center' }}>
             <Paper style={{ width: '60%', height: '35ch', overflow: 'auto', marginLeft: 'auto', marginRight: 'auto', backgroundColor: '#3d3d3d' }}>
